@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+HTML,
+BODY {
+    height: 100%;
+    width: 100%;
+}
+
+.MAIN_DIV {
+    border: 2px solid black;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.BTNDIV {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30%;
+}
+
+#ADD {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.2s all ease;
+}
+
+#ADD:hover {
+    background-color: green;
+    color: white;
+}
+
+#RESET {
+    padding: 10px 20px;/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN CONTAINER */
+.MAIN_DIV {
+    width: 360px;
+    background: white;
+    padding: 30px 25px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* TEXT STYLES */
+h1 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+p {
+    font-weight: 500;
+    margin-top: 10px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* BUTTON SECTION */
+.BTNDIV {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#ADD:hover {
+    background-color: #008000;
+    color: white;
+}
+
+#RESET:hover {
+    background-color: #ff4747;
+    color: white;
+}
+
+/* STREAK NUMBER (added dynamically in JS) */
+.MAIN_DIV h1:last-of-type {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000;
+}
+
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.2s all ease;
+}
+
+#RESET:hover {
+    background-color: red;
+    color: white;
+}
